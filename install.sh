@@ -1,6 +1,6 @@
 current_dir=$(pwd)
 
-sudo apt install make g++ python3 cmake -y
+sudo apt install make g++ python3 cmake bzip2 -y
 
 wget https://www.nsnam.org/releases/ns-allinone-3.42.tar.bz2
 tar xfj ns-allinone-3.42.tar.bz2
